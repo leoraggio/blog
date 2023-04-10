@@ -1,0 +1,22 @@
+title: 'Leo Raggio'
+baseURL: 'https://leoragg.io/'
+languageCode: 'en-us'
+theme: 'PaperMod'
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: true
+enableGitInfo: true
+enableRobotsTXT: true
+
+languages:
+  en:
+    weight: 1
+    contentDir: "content/en"
+    languageName: 'English'
+  pt-br:
+    weight: 2
+    contentDir: "content/br"
+    languageName: 'Português'
+
+markup:
+  highlight:
+    style: "catppuccin-macchiato"

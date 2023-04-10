@@ -1,22 +1,66 @@
 title: 'Leo Raggio'
 baseURL: 'https://leoragg.io/'
-languageCode: 'en-us'
+paginate: 5
 theme: 'PaperMod'
+languageCode: 'en-us'
+
 defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: true
+
+enableInlineShortcodes: true
 enableGitInfo: true
 enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
 
 languages:
   en:
     weight: 1
     contentDir: "content/en"
-    languageName: 'English'
+    languageName: ":us:"
+    languageAltTitle: English
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    params:
+      homeInfoParams:
+        Title: Hi there 🖖
+        Content: I’m a machine learning engineer, passionate about data science and programming. In this blog, I’ll write about machine learning and how to be productive using the terminal.
   pt-br:
     weight: 2
     contentDir: "content/br"
-    languageName: 'Português'
+    languageAltTitle: pt-br
+    languageName: ":brazil:"
+    taxonomies:
+      category: categorias
+      tag: tags
+      series: séries
+    params:
+      homeInfoParams:
+          Title: Olá 🖖
+          Content: Eu sou engenheiro de machine learning, apaixonado por ciência de dados e programação. Neste blog eu vou escrever sobre machine learning e como ser produtivo usando o terminal.
 
 markup:
   highlight:
     style: "catppuccin-macchiato"
+    tableOfContents:
+      endLevel: 3
+      ordered: false
+      startlevel: 2
+
+params:
+  env: production
+  author: Leonardo Raggio
+  displayFullLangName: true
+  defaultTheme: light
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  socialIcons: # optional
+      - name: "github"
+        url: "https://www.github.com/leoraggio"
+      - name: "linkedin"
+        url: "https://www.linkedin.com.br/leoraggio"

@@ -5,6 +5,7 @@ draft: true
 description: Este é meu primeiro post
 slug: meu-primeiro-post
 summary: Este é o primeiro post do meu blog
+ShowToc: true
 ---
 
 ## Bem vindo ao meu blog

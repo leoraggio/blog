@@ -24,4 +24,4 @@ E agora... um pouco de rust
 fn greet(name: &str) {
         println("Hello, {}", name)
     }
-``` 
+```

@@ -1,8 +1,8 @@
 ---
 title: "How to Start a Blog"
 date: 2023-04-10T14:38:05-03:00
-draft: true
-summary: I this post I'll show you how I started this blog using Hugo and Neovim.
+draft: false
+summary: I this post, I'll show you how I started this blog using Hugo and Neovim.
 cover:
     image: "https://www.score.org/sites/default/files/styles/responsive_16_9_1000w/public/AdobeStock_339685570_blogging%20C.jpeg"
     # can also paste direct link from external site
@@ -14,7 +14,6 @@ cover:
 
 ## Welcome to my blog
 
-
 ```python
 from datetime import datetime
 
@@ -22,9 +21,10 @@ print(datetime.today())
 ```
 
 And now, a little of rust code...
+The dog was hungry, and it ate a lot of meat.
 
 ```rust
 fn greet(name: &str) {
         println("Hello, {}", name)
     }
-``` 
+```

@@ -1,7 +1,7 @@
 ---
 title: "How to Start a Blog"
 date: 2023-04-10T14:38:05-03:00
-draft: false
+draft: true
 summary: I this post, I'll show you how I started this blog using Hugo and Neovim.
 cover:
     image: "https://www.score.org/sites/default/files/styles/responsive_16_9_1000w/public/AdobeStock_339685570_blogging%20C.jpeg"

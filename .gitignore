@@ -23,4 +23,3 @@ cypress/screenshots
 
 .astro/
 .yarn/
-yarn.lock

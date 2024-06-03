@@ -4,6 +4,7 @@ description: "We're excited to announce Astro as a new way to build static websi
 pubDate: 2023-12-30
 hero: "/images/data-science-learning.jpeg"
 tags: ["data-science"]
+draft: true
 ---
 
 Some introductory text.

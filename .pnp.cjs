@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["globby", "npm:14.0.1"],\
             ["lunr", "npm:2.3.9"],\
             ["mark.js", "npm:8.11.1"],\
+            ["postcss", "npm:8.4.38"],\
             ["prettier", "npm:3.3.0"],\
             ["prettier-plugin-astro", "npm:0.12.3"],\
             ["sass", "npm:1.77.4"],\
@@ -1761,6 +1762,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["globby", "npm:14.0.1"],\
             ["lunr", "npm:2.3.9"],\
             ["mark.js", "npm:8.11.1"],\
+            ["postcss", "npm:8.4.38"],\
             ["prettier", "npm:3.3.0"],\
             ["prettier-plugin-astro", "npm:0.12.3"],\
             ["sass", "npm:1.77.4"],\
@@ -1789,7 +1791,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fraction.js", "npm:4.3.7"],\
             ["normalize-range", "npm:0.1.2"],\
             ["picocolors", "npm:1.0.1"],\
-            ["postcss", null],\
+            ["postcss", "npm:8.4.38"],\
             ["postcss-value-parser", "npm:4.2.0"]\
           ],\
           "packagePeers": [\
